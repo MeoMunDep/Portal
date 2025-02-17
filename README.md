@@ -89,10 +89,6 @@ This file controls the bot’s behavior. Below is an example configuration:
 ### 2. `evmAddresses.txt`  - 💼 Wallet Addresses
  
 - Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
-- Add your wallet addresses in the following format: 
-
-- EVM address, BTC address
-
 
 ```txt
 0x
@@ -100,14 +96,13 @@ This file controls the bot’s behavior. Below is an example configuration:
 0x
 ```
 
-   2.1 `evmAddresses.txt`
-   ```txt
+### 2.1 `bitcoinAddresses.txt`
+```txt
 tb1..
 tb1..
 tb1..
 ```
 
-_Note: Wallet updates are currently not supported._
 
 ### 3. `proxies.txt` - 🌐 Proxy List (Optional)
 
