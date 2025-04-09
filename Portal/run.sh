@@ -71,11 +71,13 @@ create_default_configs() {
 {
   "timeZone": "en-US",
   "rotateProxy": false,
-  "skipInvalidProxy": false,
+  "skipInvalidProxy": true,
   "proxyRotationInterval": 2,
   "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100
+  "howManyAccountsRunInOneTime": 100,
+
+  "referralCodes": ["qBzEKJaR"]
 }
 EOL
 }
