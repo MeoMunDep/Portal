@@ -69,11 +69,13 @@ This file controls the bot’s behavior. Below is an example configuration:
 {
   "timeZone": "en-US",
   "rotateProxy": false,
-  "skipInvalidProxy": false,
+  "skipInvalidProxy": true,
   "proxyRotationInterval": 2,
-  "delayEachAccount": [5, 8],
+  "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 100,
+
+  "referralCodes": ["qBzEKJaR"]
 }
 ```
 
