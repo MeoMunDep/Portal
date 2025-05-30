@@ -67,7 +67,6 @@ This file controls the bot’s behavior. Below is an example configuration:
 
 ```json
 {
-  "timeZone": "en-US",
   "rotateProxy": false,
   "skipInvalidProxy": true,
   "proxyRotationInterval": 2,
@@ -80,7 +79,6 @@ This file controls the bot’s behavior. Below is an example configuration:
 ```
 
 - **Fields Explained:**
-  - `timeZone`: Time zone setting (e.g., "en-US").
   - `rotateProxy`: Enable or disable proxy rotation.
   - `skipInvalidProxy`: Skip invalid proxies if `true`.
   - `proxyRotationInterval`: Time interval (in minutes) for rotating proxies.
